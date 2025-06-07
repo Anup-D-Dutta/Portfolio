@@ -48,7 +48,7 @@ const Home = () => {
                             Hire Me
                         </button>
                         <a
-                            href="#contact"
+                            href="#projects"
                             className="btn hire-me border border-red-500 rounded-3xl px-6 py-2 text-center"
                         >
                             View Projects
