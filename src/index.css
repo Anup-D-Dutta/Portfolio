@@ -1,0 +1,42 @@
+@tailwind utilities;
+
+/* Define your custom property */
+:root {
+  --skin-color: #ff007f; /* Example color - adjust as needed */
+}
+
+/* Import Google Fonts - You'll need these for the specified font families */
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@400;700&display=swap');
+
+/* Basic body styling for context, not strictly part of the component */
+body {
+  background-color: #1f1f1f; 
+}
+
+
+:root {
+  --skin-color: #ff007f; /* Example color - adjust as needed */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@400;700&display=swap');
+
+body {
+  background-color: #1f1f1f; /* Example background */
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(calc(var(--dot-size) + var(--start-offset))); /* Start from a random bottom offset */
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100vh); /* Move to the top and off-screen */
+    opacity: 0;
+  }
+}
+
+.animate-floatUp {
+  animation-name: floatUp;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
