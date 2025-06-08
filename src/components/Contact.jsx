@@ -8,9 +8,9 @@ const Contact = () => {
         {
             icon: <FaEnvelope className="text-2xl" />,
             title: 'Email',
-            info: 'codewithanup@gmail.com',
+            info: 'duttaanup777@gmail.com',
             action: 'Send Email',
-            href: 'mailto:codewithanup@gmail.com',
+            href: 'mailto:duttaanup777@gmail.com',
         },
         {
             icon: <FaPhoneAlt className="text-2xl" />,
