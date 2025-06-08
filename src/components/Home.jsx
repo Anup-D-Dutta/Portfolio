@@ -41,12 +41,13 @@ const Home = () => {
 
                     {/* Buttons */}
                     <div className="mt-12 flex flex-col-2 sm:flex-row gap-4">
-                        <button
-                            onClick={downloadCV}
+                        <a
+                            href="#contact"
+                            // onClick={downloadCV}
                             className="btn bg-red-500 hover:bg-red-600 px-6 py-2 rounded-3xl"
                         >
                             Hire Me
-                        </button>
+                        </a>
                         <a
                             href="#projects"
                             className="btn hire-me border border-red-500 rounded-3xl px-6 py-2 text-center"
